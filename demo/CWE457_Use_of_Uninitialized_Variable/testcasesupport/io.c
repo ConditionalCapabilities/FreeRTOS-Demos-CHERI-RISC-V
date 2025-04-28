@@ -8,6 +8,7 @@
 #include <wchar.h>
 #endif
 
+__attribute__((noinline))
 void printLine (const char * line)
 {
     if(line != NULL) 
